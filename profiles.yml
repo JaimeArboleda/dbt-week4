@@ -1,0 +1,9 @@
+profile: 'default'
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: watchful-idea-375011
+      dataset: jaime_models
+      location: europe-west6
